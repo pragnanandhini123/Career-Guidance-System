@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Guidance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Career Guidance System</h2>
+        <form action="/predict" method="post">
+            <label>Marks:</label><input type="number" name="marks" required><br>
+            <label>Skills (1–10):</label><input type="number" name="skills" required><br>
+            <label>Interest (1–10):</label><input type="number" name="interest" required><br>
+            <button type="submit">Predict Career</button>
+        </form>
+    </div>
+</body>
+</html>

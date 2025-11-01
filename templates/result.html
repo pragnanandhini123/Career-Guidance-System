@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Predicted Career Path</h2>
+        <p>Your suggested career path is: <strong>{{ result }}</strong></p>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>

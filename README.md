@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 Career Guidance System
 
 A simple ML-based web app that predicts career paths for students based on academic scores and interests.
@@ -13,3 +14,7 @@ A simple ML-based web app that predicts career paths for students based on acade
 3. Train model: `python model/train_model.py`
 4. Run Flask app: `python app.py`
 5. Access: `http://127.0.0.1:5000`
+=======
+# Career-Guidance-System
+Machine Learning-based Career Guidance System using Python, SQL, and Flask.
+>>>>>>> d316171043c8a36b169d88dd3323c6c15805811c
